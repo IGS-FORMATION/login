@@ -28,6 +28,7 @@ input[type="text"]
     width: 80%;
     margin-top: -50px;
     margin-right: 80px;
+    outline: 0;
   
 }
 .field-icon {
@@ -85,14 +86,15 @@ h3
    margin-left: -80px;
 }
 
+
 @media all and (min-device-width: 540px){
 
     fieldset
     {
         width: 75%;
         height: 30px;
-        margin: 10px;
-        margin-right: -5px;
+        margin: -5px;
+        margin-right: -10px;
         text-align: center;
        
     } 
