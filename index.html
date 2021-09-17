@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion</title>
+
+</head>
+
+<body>
+    <script>
+
+      
+
+// function viewPassword()
+// {
+//   var passwordInput = document.getElementById('password-field');
+//   var passStatus = document.getElementById('pass-status');
+ 
+//   if (passwordInput.type == 'password'){
+//     passwordInput.type='text';
+//     passStatus.className='fa fa-eye-slash';
+    
+//   }
+//   else{
+//     passwordInput.type='password';
+//     passStatus.className='fa fa-eye';
+//   }
+// }
+
+
+
+        </script>
+        
+    <div id="container">
+        <div class="formulaire">
+            <div class="capture-1">
+                <img src="Capture1.PNG" alt=""> <br></br>
+            </div>
+
+            <form action="">
+
+                <br></br>
+                <div class="float-gauche">
+                    <h3>Inscrivez-vous !</h3>
+                    <p>Créez un compte gratuit sur digital</p>
+                </div>
+
+                <fieldset>
+                    <legend>Nom complet</legend>
+                    <input type="text" name="nom" placeholder="John Nash"> <br></br>
+                </fieldset>
+                <input type="email" name="email" placeholder="Adresse email"><br></br>
+                <div>
+                    <input type="password" name="password" placeholder="mot de passe" id="password-field">
+                    <i id="pass-status" class="fa fa-eye field-icon" aria-hidden="true" onClick="viewPassword()"></i>
+                </div>
+                <br></br>
+                <div>
+                    <input type="password" name="password" id="pass" placeholder="confirmer le mot de passe">
+                    <i id="pass-status" class="fa fa-eye field-icon" aria-hidden="true" onClick="viewPassword()"></i>
+                </div>
+                <br></br>
+               
+                <div id="check">
+                    <input type="checkbox" name="accepte" style="margin-left: -130px; width: 300px;"> <em
+                        style="margin-left: -140px;"> J'ai accepté les <u style="color: red; ">conditions générales</u>
+                    </em>
+
+                </div>
+                <br></br>
+                <input type="submit" name="envoyer" value="S'INSCRIRE" class="bouton">
+        </div>
+
+
+        </form>
+        <div class="image">
+            <img src="Capture.PNG" alt="" height="500px" style="margin-top: 32px;">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

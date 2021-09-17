@@ -1,0 +1,118 @@
+body
+{
+    background:  #FAFCFD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#container
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+form
+{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background: white;
+
+}
+.float-gauche
+{
+    margin-top:-30px;
+}
+
+input[type="text"]
+{
+    border: none;
+    width: 80%;
+    margin-top: -50px;
+    margin-right: 80px;
+  
+}
+.field-icon {
+    float: right;
+    margin-right: 40px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+
+.float-gauche p
+    {
+        float: inline-start; 
+        margin-left: 15px; 
+        margin-top: -25px
+    }
+input[type="text"]:focus
+{
+    border: none;
+}
+input[type="password"],
+input[type="email"]
+{
+top: 515px;
+width: 90%;
+height: 40px;
+opacity: 1;
+outline: 0;
+  
+}
+input:focus
+{
+border: 1px solid red;
+}
+
+.bouton
+{
+    width: 80%;
+    height: 40px;
+    background: red;
+    color: white;
+    border: none;
+}
+
+h3
+{
+    top: 349px;
+    left: 443px;
+    width: 155px;
+    height: 32px;
+}
+
+#check
+{
+   margin-left: -80px;
+}
+
+@media all and (min-device-width: 540px){
+
+    fieldset
+    {
+        width: 75%;
+        height: 30px;
+        margin: 10px;
+        margin-right: -5px;
+        text-align: center;
+       
+    } 
+   
+    .image
+    {
+        position: relative;
+        top: 20px;
+    }
+    .capture-1
+    {
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+
+    .float-gauche p
+    {
+        float: inline-start; 
+        margin-left: 15px; 
+        margin-top: -25px
+    }
+}
